@@ -1,0 +1,35 @@
+<style type="text/css">
+.dbboldred {
+	color: #800000;
+	font-weight: bold;
+}
+</style> <span class="dbboldred">IMPORTANT!!!</span>
+<br>
+<br> Automatic part of upgrade is completed. Please do the following to complete upgrade process:<br>
+<br>
+<hr>
+<br>The module Chat which is flash based has been removed. NOTE: Do not confuse
+it with the Chat+ module, they are not the same. You will need to remove this
+module from any current installs. To remove it, make sure it is uninstalled and
+then delete the folder modules\cheetah\chat<br><br>A new Chat module is being
+developed to replace it, and it will have the same name which is why the current
+one needs to be removed.<br><br>Because the flash based chat module has
+been removed from the main Cheetah distribution, there will no longer be any
+updates to the flash based version of this module.<br><br>
+<hr>
+<br>The module Cheetah Connect has been removed. You will need to remove this
+module from any current installs. To remove it, make sure it is uninstalled and
+then delete the folder modules\cheetah\cheetah_connect<br><br>Because the
+Cheetah Connect has
+been removed from the main Cheetah distribution, there will no longer be any
+updates to this module.<br><br>
+<hr>
+
+<br>Now perform the following cleanup steps and the upgrade will be complete.
+<ul>
+	<li>Clean the <b>/cache/</b>, <b>/cache_public/</b> and <b>/tmp/</b> folders via FTP or SSH, leave only .htaccess file there if one exists</li>
+	<li>Recompile system language file from Admin Panel -&gt; Settings -&gt; Languages Settings -&gt; Languages</li>
+	<li>Clean <b>/cache/</b> folder again</li>
+	<li>Recompile Forum language file for all templates from Admin Panel -&gt; Modules -&gt; Forum -&gt; Manage Forum</li>
+	<li>Remove <b>/upgrade/</b> directory</li>
+</ul>
